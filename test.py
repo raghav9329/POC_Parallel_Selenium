@@ -7,7 +7,7 @@ class Chrome1(unittest.TestCase):
 
     def setUp(self) :
         self.driver = webdriver.Remote(
-        command_executor='http://127.0.0.1:4444/wd/hub',
+        command_executor='http://172.17.0.2:4444/wd/hub',
         desired_capabilities=DesiredCapabilities.CHROME)
 
     def test_Google_Search(self):
