@@ -1,3 +1,4 @@
+from junit_xml import TestSuite, TestCase
 from subprocess import Popen
 import glob
 tests = glob.glob('test*.py')
