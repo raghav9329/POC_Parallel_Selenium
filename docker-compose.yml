@@ -6,7 +6,7 @@ seleniumhub:
 chromenode:
   image: selenium/node-chrome-debug
   ports:
-    - 5555
+    - 5900
   links:
     - seleniumhub:hub
 

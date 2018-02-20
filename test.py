@@ -14,7 +14,7 @@ class Chrome1(unittest.TestCase):
     def test_Google_Search(self):
         driver = self.driver
         driver.get("http://www.google.com")
-        inputElement = driver.find_element_by_name("q")
+        inputElement = driver.find_element_by_name("dsd")
         inputElement.send_keys("Cheese!")
         inputElement.submit()
 
